@@ -67,6 +67,9 @@ td {
 .main_navigation {
     background-color: #303030;
     overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 .main_navigation a {
