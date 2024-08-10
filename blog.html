@@ -12,6 +12,48 @@
          .fixed_bg {
             background-image: url(https://news.felo.me/wp-content/uploads/2024/05/blog.jpeg);
          }
+
+         /*#blog-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+         }
+
+         .post {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+         }
+
+         .post h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+         }
+
+         .post p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+         }*/
+         
+         .blog_posts {
+            flex: 1 1 calc(50% - 20px);
+            box-sizing: border-box;
+            padding: 20px;
+            border: 1px solid red;
+            border-radius: 8px;
+            background: green;
+            text-align: center;
+            color: black;
+         }
+
+         .columns {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+         }
       </style>
 
    </head>
@@ -36,6 +78,8 @@
 
       <h2>Blog &#40;Currently a Work-in-Progress&#41;</h2>
 
+      <div id="blog-list" class="columns"></div>
+
       <p>Check back later!</p>
 
       <!-- Bottom of the page -->
@@ -45,6 +89,7 @@
       <div class="empty_gap"></div>
 
       <!-- Dark Mode Function Script -->
+      <script src="scripts.js"></script>
       <script src="DarkMode.js"></script>
 
    </body>
