@@ -37,23 +37,33 @@
             color: #666;
             line-height: 1.6;
          }*/
+
+         #blog-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding-left: 5%;
+            padding-right: 5%;
+         }
          
          .blog_posts {
             flex: 1 1 calc(50% - 20px);
             box-sizing: border-box;
             padding: 20px;
-            border: 1px solid red;
+            border: 2px solid grey;
             border-radius: 8px;
-            background: green;
-            text-align: center;
+            background: gainsboro;
             color: black;
          }
 
-         .columns {
-            display: flex;
-            gap: 20px;
-            padding: 20px;
+         .blog_posts h3 {
+            text-align: center;
          }
+
+         .blog_posts p {
+            margin-left: 50px;
+         }
+
       </style>
 
    </head>
@@ -76,11 +86,11 @@
 
       <div class="fixed_bg"></div>
 
-      <h2>Blog &#40;Currently a Work-in-Progress&#41;</h2>
+      <!-- Blog contents -->
 
-      <div id="blog-list" class="columns"></div>
+      <h2>Blog</h2>
 
-      <p>Check back later!</p>
+      <div id="blog-list"></div>
 
       <!-- Bottom of the page -->
       <div class="empty_gap" style="height: 250px;"></div>

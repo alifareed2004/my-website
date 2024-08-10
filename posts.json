@@ -1,11 +1,21 @@
 [
     {
-        "title": "Blog Post One: Light/Dark Mode",
+        "title": "Post One: Light/Dark Mode",
         "description": "This is a test blog post."
     },
 
     {
-        "title": "Blog Post Two: Dynamic Blog Section",
+        "title": "Post Two: Dynamic Blog Section",
         "description": "This is a test blog post."
+    },
+
+    {
+        "title": "Post Three: TESTING",
+        "description":"This is a test blog post."
+    },
+
+    {
+        "title": "Post Four: TESTING",
+        "description":"This is a test blog post."
     }
 ]
