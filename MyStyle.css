@@ -2,6 +2,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     margin: 0px;
+    transition: background-color 0.2s;
 }
 
 :root {
@@ -109,6 +110,7 @@ td {
 .empty_gap {
     background-color: var(--bg-color);
     height: 100px;
+    transition: background-color 0.2s;
 }
 
 .fixed_bg {
